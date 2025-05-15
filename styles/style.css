@@ -138,3 +138,38 @@ main {
     margin-top: 16px;
     margin-bottom: 32px;
 }
+ /* Inspiration  */ 
+ 
+.inspiration{
+    margin-top: 90px;
+}
+
+.inspiration-texts {
+    text-align: center;
+}
+
+.inspiration-texts>h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-texts>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.inspiration-vid {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
