@@ -138,9 +138,10 @@ main {
     margin-top: 16px;
     margin-bottom: 32px;
 }
- /* Inspiration  */ 
- 
-.inspiration{
+
+/* Inspiration  */
+
+.inspiration {
     margin-top: 90px;
 }
 
@@ -172,4 +173,61 @@ main {
     border-radius: 16px;
     padding: 32px;
 
+}
+
+/* Current Target  */
+.current-target{
+    margin-top: 150px;
+}
+.ct-texts {
+    text-align: center;
+}
+
+.ct-texts>h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.ct-texts>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.ct-boxes {
+    display: flex;
+}
+.ct-box{
+    border-radius: 16px;
+    padding: 40px;
+}
+.ct-box>h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.ct-box>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.ct-box>a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;  
 }
