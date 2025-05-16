@@ -176,9 +176,10 @@ main {
 }
 
 /* Current Target  */
-.current-target{
+.current-target {
     margin-top: 150px;
 }
+
 .ct-texts {
     text-align: center;
 }
@@ -203,10 +204,12 @@ main {
 .ct-boxes {
     display: flex;
 }
-.ct-box{
+
+.ct-box {
     border-radius: 16px;
     padding: 40px;
 }
+
 .ct-box>h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -229,5 +232,62 @@ main {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 700;  
+    font-weight: 700;
+}
+
+/* Next Target  */
+.next-target {
+    margin-top: 110px;
+}
+
+.nt-texts {
+    text-align: center;
+}
+
+.nt-texts>h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800px;
+}
+
+.nt-texts>P {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.nt-box {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    gap: 24px;
+}
+
+.nt-box-texts h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 800;
+    font-size: 24px;
+}
+.nt-box-texts p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.nt-box-texts a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 700;
+    font-size: 16px;
 }
