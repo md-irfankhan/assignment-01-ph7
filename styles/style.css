@@ -297,7 +297,7 @@ main {
 /* Support */
 .support {
     margin-top: 50px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url('../assets/handshake.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,4 +347,27 @@ main {
     background-color: white;
     margin-left: 16px;
 
+}
+
+/* Footer  */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+
+.foot-texts h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
