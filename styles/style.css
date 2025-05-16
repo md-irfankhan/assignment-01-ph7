@@ -276,6 +276,7 @@ main {
     font-weight: 800;
     font-size: 24px;
 }
+
 .nt-box-texts p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -285,9 +286,65 @@ main {
     margin-top: 8px;
     margin-bottom: 24px;
 }
+
 .nt-box-texts a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-weight: 700;
     font-size: 16px;
+}
+
+/* Support */
+.support {
+    margin-top: 50px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url('../assets/handshake.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 48px;
+    border-radius: 8px;
+}
+
+.support-texts {
+    text-align: center;
+}
+
+.support-texts h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-texts p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.forms input {
+    padding: 19px 116px;
+
+}
+
+.forms input {
+    padding: 20px 116px;
+    border-radius: 8px;
+
+}
+
+.forms button {
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    margin-left: 16px;
+
 }
